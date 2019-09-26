@@ -1,0 +1,142 @@
+
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  text-decoration: underline;
+}
+
+#pizzahome{
+  opacity: .7;
+  border-radius: 20px;
+}
+
+#phone{
+  display: block;
+  color: red;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header{
+  text-align: center;
+  font-size: 150px;
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  border-radius: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.box{
+  width: 700px;
+}
+
+.text{
+  opacity: 0;
+}
+
+.box:hover .text{
+  opacity: 1;
+  transition: 1s;
+}
+
+.box:hover img{
+  opacity:.3;
+  transition: 1;
+}
+
+img{transition: 1s;}
+
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+.box .middle{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+
+    }
+
+    .box2{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+
+    }
+    .box2 .middle2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 5%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 100%; /* Set the width of the positioned div */
+    }
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 99%;
+  z-index: 999;
+}
+
+.location{
+  padding-bottom: 120px;
+}
+
+.section{
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
